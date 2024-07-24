@@ -8,6 +8,7 @@ button.addEventListener('click', () => {
     let vorodi = input.value;
     if (vorodi.trim().length >= 1) {
         createDivWithParagraph("cild-inf", vorodi);
+        input.value = ''
     } else {
         alert("لطفاً مقداری وارد کنید.");
     }
